@@ -1,0 +1,87 @@
+
+@font-face{
+    font-family: 'nunito';
+    src: url('/fonts/Nunito-SemiBold.ttf');
+}
+
+.d-none{
+    display: none !important;
+}
+
+*{
+    font-family: nunito;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgP{
+    width: 10em;
+    height: 10em;   
+}
+.btn{
+    border: 2px solid black;
+    background-color: #00ff00;
+    min-width: 100px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    margin: 20px;
+}
+
+.btn p{
+    margin: 10px 30px;
+    color: #ffffff;
+    font-size: 2em;
+
+}
+#cajaFea{
+    position: relative;
+    background-color: #ff0000;
+    
+}
+
+#cajaLinda{
+    cursor: pointer;
+}
+
+
+#tarjeta{
+    position: absolute;
+    background: rgba(51, 50, 50, 0.705);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tarjeta div{
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 0px 11px #000000;
+    width: 70%;
+    height: 60%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tarjeta div img{
+    width: 60%;
+    height: 60%;
+    max-width: 300px;
+    height: 300px;
+}
